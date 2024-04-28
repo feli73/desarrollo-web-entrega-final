@@ -1,0 +1,116 @@
+/*  Nosotros */
+
+
+
+
+.titulo{
+    margin-left: 20px ;
+    
+}
+
+.texto {
+    padding-left: 50px;
+    
+
+    
+    padding-bottom: 40vh; /* Cambia este valor según sea necesario */
+}
+
+
+
+.container1{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/guitarras3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 80px);
+    color: white;
+
+    margin-top: -20px; /* Ajusta este valor según sea necesario */
+    
+}
+
+.titulo2{
+    color: white;
+}
+
+
+.carousel-item {
+    max-height: 700px; 
+}
+    
+    
+
+@media screen and (max-width: 600px ){
+
+    .container1{
+        height: 100%;
+        
+    }
+
+    
+
+
+   .texto {
+    line-height: 2;
+    padding-top: 10vh;
+    margin-top: 0;
+
+
+    
+    }
+
+
+    
+
+
+    
+}
+
+@media (max-width: 768px) {
+    .texto {
+      animation: none !important;
+      padding-left: 10vh;
+    padding-right: 10vh;
+      
+      
+    }
+
+
+    @media screen and (min-width: 601px ) and (max-width: 870px ) {
+
+        .texto {
+            position: relative;
+            top: 50vh;
+
+            padding-bottom: 0;
+        }
+    }
+
+    .carousel-item {
+        padding-top: 0; 
+        margin-top: 0;
+
+    }
+
+
+    body {
+        display: flex; 
+        flex-direction: column; 
+        min-height: 100vh; 
+    }
+
+    .container1 {
+        margin-top: -20px; /* Ajusta este valor según sea necesario */
+    }
+    
+    
+
+  }
+
+  @media screen and (max-width: 600px ) {
+
+    .carousel-item {
+        padding-top: 0; 
+        
+    }
+  }
